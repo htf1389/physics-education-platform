@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build
+dist/
+build/
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.log
+
+# Testing
+coverage/
+.nyc_output/
+
+# Uploads
+uploads/
+temp/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# PWA
+sw.js
+workbox-*.js
+
+# Misc
+.cache/
+*.pid
